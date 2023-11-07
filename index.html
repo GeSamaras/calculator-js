@@ -7,40 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
-    <div class="container">
-        <div class="calculator">
-            <div class="display">
-                <div class="display__result">
-                    <input class="display_input" > 
-                </div>
+<body background="./images/background.jpg">
+    <div class="calc" >
+        <section class="screen">0</section>
+
+      <section class="calc-buttons">
+          <div class="calc-button-row">
+              <button class="calc-button double">C</button>
+              <button class="calc-button">←</button>
+              <button class="calc-button">÷</button>
             </div>
-            <div class="buttons">
-                <button class="buttons_number" id="7">7</button>
-                <button class="buttons_number" id="8">8</button>
-                <button class="buttons_number" id="9">9</button>
+            <div class="calc-button-row">
+                <button class="calc-button">7</button>
+                <button class="calc-button">8</button>
+                <button class="calc-button">9</button>
+                <button class="calc-button">×</button>
             </div>
-            <div class="buttons">   
-                <button class="buttons_number" id="4">4</button>
-                <button class="buttons_number" id="5">5</button>
-                <button class="buttons_number" id="6">6</button>
-            </div>
-            <div class="buttons">
-                <button class="buttons_number" id="1">1</button>
-                <button class="buttons_number" id="2">2</button>
-                <button class="buttons_number" id="3">3</button>
-            </div>  
-            <div class="buttons">
-                <button class="buttons_number" id="0">0</button>
-            </div>
-            <div class="operands">
-                <button class="buttons_operands">+</button>
-                <button class="buttons_operands">-</button>
-                <button class="buttons_operands">*</button>
-                <button class="buttons_operands">/</button>
-                <button class="buttons_operands">=</button>
-            </div>
+            <div class="calc-button-row">
+                <button class="calc-button">4</button>
+          <button class="calc-button">5</button>
+          <button class="calc-button">6</button>
+          <button class="calc-button">-</button>
         </div>
+        <div class="calc-button-row">
+          <button class="calc-button">1</button>
+          <button class="calc-button">2</button>
+          <button class="calc-button">3</button>
+          <button class="calc-button">+</button>
+        </div>
+        <div class="calc-button-row">
+            <button class="calc-button triple">0</button>
+            <button class="calc-button">=</button>
+        </div>
+    </section>
     </div>
 </body>
 </html>
